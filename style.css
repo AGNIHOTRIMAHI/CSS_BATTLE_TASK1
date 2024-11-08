@@ -1,0 +1,160 @@
+
+* {
+  
+  
+    border: 10;
+    box-sizing: border-box;
+    border-bottom: 90px;
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #f5f5f5;
+    overflow: hidden;
+   
+  
+  }
+  
+  
+  .profile-container {
+    width: 360px;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  
+    
+  
+    
+  }
+  
+  
+  .profile-header {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 20px;
+    position: relative;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1;
+  
+  
+    
+  }
+  
+  
+  .header-content {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  
+  .text-content {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  
+  .text-content h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    
+    margin-top: 60px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #ffd1d1;
+    margin-bottom: 20px;
+  }
+  
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 10px;
+    
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .stat p {
+    font-size: 12px;
+    color: #ffd1d1;
+    margin-bottom: -13px;
+  }
+  
+  .stat h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .character-image {
+    width: 200px;
+    height: 80%;
+    position: absolute;
+    right: -20px;
+    top: 100px;
+    z-index: 0;
+  }
+  
+  
+  .achievements {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+  
+    flex-direction: column;
+  }
+  
+  .achievement {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #ff4b2b;
+  }
+  
+  .achievement-details h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .achievement-details p {
+    font-size: 12px;
+    color: #888;
+  }
